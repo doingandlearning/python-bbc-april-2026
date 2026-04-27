@@ -56,10 +56,10 @@ This three-day course offers a practical, hands-on journey into the world of Pyt
 
 - Defining and calling functions
 - Function arguments, return values, and scope
-- Lambda functions and functional programming concepts
 
 ### 7. Further Functions
 
+- Lambda functions and functional programming concepts
 - Understanding and using list comprehensions
 - A concise way to create lists
 - Practical examples and use cases
