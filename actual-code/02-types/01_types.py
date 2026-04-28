@@ -23,6 +23,6 @@ my_favourite_number = True  # bool -> Boolean -> True/False
 print(my_favourite_number)
 print(type(my_favourite_number))
 
-my_favourite_number = None 
+my_favourite_number = None  # NoneType -> null, undefined
 print(my_favourite_number)
 print(type(my_favourite_number))

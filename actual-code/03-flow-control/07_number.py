@@ -1,6 +1,6 @@
 user_input = input("Give me a number: ")
 
-while not user_input.isdigit():
+while not user_input.isdigit():  # defensive programming
   print("You need give me just numbers.")
   user_input = input("Give me a number: ")
 

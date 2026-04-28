@@ -7,3 +7,5 @@ else:
   is_teenager = False
 
 print(is_teenager)
+
+is_teenager = True if age > 12 and age < 20 else False

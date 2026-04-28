@@ -39,11 +39,11 @@ more_names = ("Michael", "Edith", "Priya")
 all_the_names = (names, more_names, "Kevin")
 print(all_the_names[1][2])
 
-channels = ("bbc1", "bbc2")
+channels = ("bbc1", "bbc2", "cbeebies")
 
 first_channel = channels[0]
 second_channel = channels[1]
 
 # unpacking -> destructuring
-first_channel, = channels
+_, second_channel, _ = channels
 print(f"First channel: {first_channel}, Second channel: {second_channel}")
