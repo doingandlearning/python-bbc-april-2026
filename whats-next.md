@@ -1,62 +1,67 @@
-Most learners hit a plateau after an introductory course—not because Python gets harder, but because the **next steps feel fuzzy**. Below is a curated map of resources, challenges and project ideas that work for _both_ non-developers and seasoned coders, and that play nicely with the BBC’s in-house O’Reilly subscription. Follow the sections in roughly the order given, mixing structured study with bite-size practice and small “automation wins” to keep momentum high.
+# Python Next Steps: A Resource Map for BBC Learners
+
+Most learners hit a plateau after an introductory course—not because Python gets harder, but because the **next steps feel fuzzy**. Below is a curated map of resources, challenges and project ideas that work for _both_ non-developers and seasoned coders, and that play nicely with the BBC's in-house O'Reilly subscription. Follow the sections in roughly the order given, mixing structured study with bite-size practice and small "automation wins" to keep momentum high.
 
 ---
 
 ## Structured Learning & Reference
 
-### Real Python – “deep-dive articles + videos”
+### Real Python – "deep-dive articles + videos"
 
-Free tutorials and paid learning paths cover everything from f-strings to async I/O, with quizzes to check retention ([realpython.com][1])
+Free tutorials and paid learning paths cover everything from f-strings to async I/O, with quizzes to check retention ([realpython.com](https://realpython.com))
 
-### Python Morsels – “one exercise per week”
+### Python Morsels – "one exercise per week"
 
-Weekly graded challenges (novice → advanced) plus screencasts; ideal for habit building without overwhelm ([pythonmorsels.com][2])
+Weekly graded challenges (novice → advanced) plus screencasts; ideal for habit building without overwhelm ([pythonmorsels.com](https://www.pythonmorsels.com/exercises/))
 
 Code: 9B92Y7R3XYAD - 60 free days!
 
-### O’Reilly Learning Platform
+### O'Reilly Learning Platform
 
-Use the corporate subscription to stream **interactive** Python labs and classic books such as _Learning Python_ and _Fluent Python_; the platform’s “Interactive Learning” area lets you run code in-browser ([slo.oregon.gov][3], [en.wikipedia.org][4])
+Use the corporate subscription to stream **interactive** Python labs and classic books such as _Learning Python_ and _Fluent Python_; the platform's "Interactive Learning" area lets you run code in-browser.
 
 Python for Data Analysis, 2nd Edition by Wes McKinney.
 
 ### Recommended Books
 
-| Goal               | Title (O’Reilly or CC-licence)                        | Why it helps                                                     |
+| Goal               | Title (O'Reilly or CC-licence)                        | Why it helps                                                     |
 | ------------------ | ----------------------------------------------------- | ---------------------------------------------------------------- |
-| Solid fundamentals | _Learning Python_ (Mark Lutz)                         | Deep coverage of core language ([cfm.ehu.es][5])                 |
-| Practical wins     | _Automate the Boring Stuff with Python_ (Al Sweigart) | Project-based automation ideas ([automatetheboringstuff.com][6]) |
+| Solid fundamentals | _Learning Python_ (Mark Lutz)                         | Deep coverage of core language                                   |
+| Practical wins     | _Automate the Boring Stuff with Python_ (Al Sweigart) | Project-based automation ideas — also free online at [automatetheboringstuff.com](https://automatetheboringstuff.com) |
 
-_(All are included in O’Reilly; Al Sweigart’s book is also free online.)_
+_(Both are included in O'Reilly.)_
 
 ---
 
 ## Practice & Daily Challenges
 
-| Format                      | Platform                                                                                                                             | Why try it?                                                                   |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- |
-| “25-day December puzzle”    | **Advent of Code**                                                                                                                   | Fresh problem each day; great pair-programming fodder ([adventofcode.com][7]) |
-| Guided TDD drills           | **Exercism Python track** – 140+ exercises with mentor feedback ([exercism.org][8])                                                  |                                                                               |
-| Real-world bite-sized katas | **PyBites / CodeChallenge.es** – emphasises idiomatic code ([codechalleng.es][9])                                                    |                                                                               |
-| Data-centric notebooks      | **Kaggle Learn “Python” micro-courses** – interactive, no setup needed ([kaggle.com][10])                                            |                                                                               |
-| Long-form habit builder     | **100 Days of Python** (Replit/Udemy/TalkPython variants) – build something daily for \~3 months ([replit.com][11], [udemy.com][12]) |                                                                               |
-| Interview-style puzzles     | LeetCode / Codewars for those eyeing developer roles ([amazon.com][13])                                                              |                                                                               |
+| Format                      | Platform                                                                                                       | Why try it?                                                                   |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| "25-day December puzzle"    | **Advent of Code**                                                                                             | Fresh problem each day; great pair-programming fodder                         |
+| Guided TDD drills           | **Exercism Python track** – 140+ exercises with mentor feedback ([exercism.org](https://exercism.org/tracks/python)) |                                                                               |
+| Real-world bite-sized katas | **PyBites / CodeChallenge.es** – emphasises idiomatic code ([codechalleng.es](https://codechalleng.es))        |                                                                               |
+| Beginner-friendly puzzles   | **Codewars** – gentler on-ramp than LeetCode; good for building confidence with kata-style problems             |                                                                               |
+| Gamified challenges         | **CheckIO** – browser-based challenges presented as a game; lower-stakes and more approachable than most puzzle sites ([checkio.org](https://checkio.org)) |                              |
+| Data-centric notebooks      | **Kaggle Learn "Python" micro-courses** – interactive, no setup needed ([kaggle.com](https://www.kaggle.com/learn/python)) |                                                                |
+| Long-form habit builder     | **100 Days of Python** (Replit/Udemy/TalkPython variants) – build something daily for ~3 months                |                                                                               |
+| Rebuild real tools from scratch | **Codecrafters** – implement Redis, Git, an HTTP server, and more in Python; excellent for experienced devs who want genuine depth ([codecrafters.io](https://codecrafters.io)) | |
+| Interview-style puzzles     | **LeetCode** – best suited to developers actively preparing for technical interviews; the difficulty curve is steep and problems skew heavily towards algorithms, so not recommended as general Python practice |  |
 
-Mix one “evergreen” track (e.g. Exercism) with a seasonal burst (Advent of Code) to keep practice varied.
+Mix one "evergreen" track (e.g. Exercism) with a seasonal burst (Advent of Code) to keep practice varied. If you are newer to coding, start with CheckIO or Codewars before attempting LeetCode.
 
 ---
 
 ## Projects & Applied Learning
 
-1. **Personal Automation** – re-implement _Automate the Boring Stuff_ scripts with your own BBC-adjacent tasks: bulk-rename files, scrape schedules, auto-format subtitles ([automatetheboringstuff.com][6])
+1. **Personal Automation** – re-implement _Automate the Boring Stuff_ scripts with your own BBC-adjacent tasks: bulk-rename files, scrape schedules, auto-format subtitles
 2. **Data Snack-Size Projects**
 
    - Trending-topic dashboard using the headline toolkit from class.
    - Simple ETL: pull open data CSV → clean with pandas → push to SQLite.
 
 3. **API Mash-ups** – build a CLI or Streamlit mini-app that hits the News API or the BBC Developer Portal for programme metadata.
-4. **Kaggle Mini-Comp** – choose a beginner competition (Titanic, House Prices) to practise pandas, plotting and model baselines ([kaggle.com][10])
-5. **“One-Module” Libraries** – publish a tiny package (e.g. `bbc-titlecase`) to PyPI; great real-world exposure to packaging and testing.
+4. **Kaggle Mini-Comp** – choose a beginner competition (Titanic, House Prices) to practise pandas, plotting and model baselines.
+5. **"One-Module" Libraries** – publish a tiny package (e.g. `bbc-titlecase`) to PyPI; great real-world exposure to packaging and testing.
 
 ---
 
@@ -64,12 +69,12 @@ Mix one “evergreen” track (e.g. Exercism) with a seasonal burst (Advent of C
 
 | Community                   | Value                                                                            |
 | --------------------------- | -------------------------------------------------------------------------------- |
-| **Python Discord**          | Live help channels, monthly code jams ([en.wikipedia.org][14])                   |
-| **r/learnpython** on Reddit | Peer Q\&A, book/course reviews ([reddit.com][15])                                |
-| Real Python & PyBites Slack | Topic-specific chat and office-hours ([realpython.com][1], [codechalleng.es][9]) |
-| O’Reilly live events        | Author Q\&A, “Superstream” one-day conferences ([slo.oregon.gov][3])             |
+| **Python Discord**          | Live help channels, monthly code jams                                            |
+| **r/learnpython** on Reddit | Peer Q&A, book/course reviews                                                    |
+| Real Python & PyBites Slack | Topic-specific chat and office-hours                                             |
+| O'Reilly live events        | Author Q&A, "Superstream" one-day conferences                                    |
 
-Joining one or two communities ensures you have humans in the loop when docs aren’t enough.
+Joining one or two communities ensures you have humans in the loop when docs aren't enough.
 
 ---
 
@@ -77,28 +82,12 @@ Joining one or two communities ensures you have humans in the loop when docs are
 
 | Profile                  | Next 4 Weeks                                               | After 4 Weeks                                                  |
 | ------------------------ | ---------------------------------------------------------- | -------------------------------------------------------------- |
-| **Data-curious non-dev** | Real Python “Beginner Data” path + Automate chapters 1–6   | Kaggle Learn ➜ first mini project                              |
-| **Junior dev**           | Python Morsels weekly + Exercism                           | Advent of Code or PyBites kata streak                          |
-| **Experienced dev**      | O’Reilly _Fluent Python_ chapters + PyBites advanced track | Contribute mentor notes on Exercism; release a small PyPI tool |
+| **Data-curious non-dev** | Real Python "Beginner Data" path + Automate chapters 1–6   | Kaggle Learn ➜ first mini project                              |
+| **Junior dev**           | Python Morsels weekly + Exercism or CheckIO                | Advent of Code or PyBites kata streak                          |
+| **Experienced dev**      | O'Reilly _Fluent Python_ chapters + Codecrafters           | Contribute mentor notes on Exercism; release a small PyPI tool; LeetCode if interview prep is relevant |
 
 ---
 
 ### Final Tip
 
 Treat learning as **cycling gears**: alternate focused reading (low gear) with real-world friction (high gear). These resources give you the gears—schedule the ride.
-
-[1]: https://realpython.com/?utm_source=chatgpt.com "Real Python"
-[2]: https://www.pythonmorsels.com/exercises/?utm_source=chatgpt.com "Python Exercises"
-[3]: https://slo.oregon.gov/oreilly/content?utm_source=chatgpt.com "Content & Formats - O'Reilly Learning Platform"
-[4]: https://en.wikipedia.org/wiki/O%27Reilly_Media?utm_source=chatgpt.com "O'Reilly Media"
-[5]: https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf?utm_source=chatgpt.com "[PDF] Learning Python - Materials Physics Center"
-[6]: https://automatetheboringstuff.com/?utm_source=chatgpt.com "Automate the Boring Stuff with Python"
-[7]: https://adventofcode.com/?utm_source=chatgpt.com "Advent of Code 2024"
-[8]: https://exercism.org/tracks/python?utm_source=chatgpt.com "Python on Exercism"
-[9]: https://codechalleng.es/?utm_source=chatgpt.com "PyBites Platform | Real World Python Exercises"
-[10]: https://www.kaggle.com/learn/python?utm_source=chatgpt.com "Learn Python Tutorials - Kaggle"
-[11]: https://replit.com/learn/100-days-of-python/?utm_source=chatgpt.com "100 Days of Code - The Complete Python Course - Replit"
-[12]: https://www.udemy.com/course/100-days-of-code/?srsltid=AfmBOoqlF3zmUQrcV5JTTUJSaUAK3X0SOHiek3QmtZ6JfM6D3CI6Uyq-&utm_source=chatgpt.com "100 Days of Code: The Complete Python Pro Bootcamp - Udemy"
-[13]: https://www.amazon.com/Automate-Boring-Stuff-Python-Programming/dp/1593275994?utm_source=chatgpt.com "Automate the Boring Stuff with Python: Practical Programming for ..."
-[14]: https://en.wikipedia.org/wiki/Advent_of_Code?utm_source=chatgpt.com "Advent of Code"
-[15]: https://www.reddit.com/r/learnpython/comments/2jqgjw/is_it_possible_to_learn_python_by_reading_oreilly/?utm_source=chatgpt.com "Is it possible to learn Python by reading O'Reilly Learning ... - Reddit"
