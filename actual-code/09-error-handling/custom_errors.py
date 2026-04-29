@@ -1,0 +1,2 @@
+class InvalidChannelError(Exception):
+  pass
