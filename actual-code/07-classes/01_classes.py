@@ -3,3 +3,5 @@ print(type(3.45))
 print(type("hello"))
 print(type(True))
 print(type([]))
+
+[].append("asdas")

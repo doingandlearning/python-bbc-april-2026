@@ -27,6 +27,9 @@ class WebUser:
     self.team = team
     self.responsibilities = []
 
+  def __str__(self):
+    return f"WebUser called {self.name} based in {self.location} in the {self.team} team."
+
   def greet(self):
     print(f"Hello, {self.name}, how are things in {self.location}? Do you like working in the {self.team} team?")
  
@@ -57,3 +60,12 @@ print(user4.is_admin())
 
 
 user3.is_admin()
+
+
+print(user1)
+# print() -> WebUser -> __str__() -> Object -> __str__()
+print(user3)
+
+# __init__() -> set the initial attributes
+# __str__() -> reasonable print message
+# helper methods
